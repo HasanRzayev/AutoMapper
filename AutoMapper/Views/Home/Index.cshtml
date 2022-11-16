@@ -1,0 +1,20 @@
+﻿@using AutoMapper.Models.ViewModels
+@model UserViewModel
+@{
+    Layout = null;
+}
+
+
+<div class="text-center">
+     <h1> User---->UserViewModel</h1>
+     <div id="col">
+           <h1 >@Model.FirstName</h1>
+           <h1 >@Model.LastName</h1>
+     </div>
+  
+</div>
+<style>
+    #col{
+        display:inline
+    }
+</style>
